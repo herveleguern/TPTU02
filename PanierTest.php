@@ -8,7 +8,8 @@ class PanierTest extends PHPUnit\Framework\TestCase
 {
     private $panier; //objet Panier du test
 
-    public function setUp(){
+    public function setUp():void
+    {
         $this->panier=new Panier('monPanier');
         $this->panier->ajouterProduit(new Produit('bic','bic bleu',1),5);
         $this->panier->ajouterProduit(new Produit('rame80g','rame 500feuilles 80grammes',5),1);
