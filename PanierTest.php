@@ -1,5 +1,5 @@
 <?php
-//pour installer PHPUnit : composer require --dev phpunit/phpunit ^6.5
+//pour installer PHPUnit : composer require --dev phpunit/phpunit
 //pour tester le Panier : php vendor/bin/phpunit PanierTest.php
 require './vendor/autoload.php';
 require 'Panier.php';
